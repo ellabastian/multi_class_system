@@ -84,8 +84,7 @@ class Diary
 end
 
 class DiaryEntry
-    def initialize(title, contents)
-        @title = title
+    def initialize(contents)
         @contents = contents
     end
 
